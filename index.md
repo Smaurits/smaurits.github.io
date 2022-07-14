@@ -1,4 +1,4 @@
-## Project Log
+## Maurits Oldenburg
 
 14/07/2022: Dit is het begin van mijn eigen website project. Vandaag heb ik het domeinnaam gekocht en de GitHib repository aangemaakt :)
 
