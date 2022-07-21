@@ -1,6 +1,7 @@
 ## Maurits Oldenburg
 
-14/07/2022: Dit is het begin van mijn eigen website project. Vandaag heb ik het domeinnaam gekocht en de GitHib repository aangemaakt :)
+14/07/2022: Dit is het begin van mijn eigen website project. Vandaag heb ik het domeinnaam gekocht en de GitHub repository aangemaakt :)
+21/07/2022: Check of notepad++ en GitHub Desktop werkt.
 
 
 You can use the [editor on GitHub](https://github.com/Smaurits/smaurits.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
