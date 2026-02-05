@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANCHORED voor HR & Leiderschap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Oswald', 'sans-serif'],
+                    },
+                    colors: {
+                        eur: {
+                            dark: '#0f172a', // Slate 900
+                            primary: '#0c4a6e', // Sky 900
+                            accent: '#0ea5e9', // Sky 500
+                            gold: '#fbbf24', // Amber 400 (voor premium touch)
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="bg-eur-dark text-white py-4 px-6 fixed w-full top-0 z-50 border-b border-slate-700">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <i class="fa-solid fa-anchor text-eur-accent text-2xl"></i>
+                <span class="font-display font-bold text-xl tracking-wider">ANCHORED <span class="text-slate-400 font-normal text-sm ml-2">| FOR BUSINESS</span></span>
+            </div>
+            <a href="#contact" class="hidden md:inline-block bg-eur-accent hover:bg-sky-400 text-white font-bold py-2 px-6 rounded-full transition-colors text-sm">
+                Partner Worden
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-eur-dark text-white pt-32 pb-20 px-6 overflow-hidden">
+        <!-- Abstract Background Elements -->
+        <div class="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
+             <i class="fa-solid fa-network-wired absolute -right-20 top-20 text-[400px]"></i>
+        </div>
+
+        <div class="max-w-4xl mx-auto relative z-10 text-center">
+            <p class="text-eur-accent font-bold tracking-widest uppercase mb-4 text-sm md:text-base animate-pulse">Executive Education Reimagined</p>
+            <h1 class="font-display text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                VAN <span class="text-transparent bg-clip-text bg-gradient-to-r from-eur-accent to-white">HIGH POTENTIAL</span><br>
+                NAAR CHANGE AGENT.
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-300 font-light max-w-2xl mx-auto mb-10">
+                Stop met het sturen van talent naar standaard cursussen. <br>
+                Geef ze de tools om uw strategie écht uit te voeren.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#business-case" class="bg-white text-eur-dark font-bold py-4 px-8 rounded-full hover:bg-slate-200 transition-colors flex items-center justify-center gap-2">
+                    Bekijk de Business Case <i class="fa-solid fa-arrow-down"></i>
+                </a>
+                <a href="mailto:maurits.oldenburg@eur.nl" class="border border-slate-500 text-white font-bold py-4 px-8 rounded-full hover:bg-slate-800 transition-colors">
+                    Plan een Kennismaking
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- The Problem (Retention) -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="font-display text-4xl font-bold text-eur-dark mb-6">HET TALENT-DILEMMA</h2>
+                <div class="space-y-6 text-lg text-slate-600">
+                    <p>
+                        U kent ze wel. De koplopers in uw organisatie. Ze zijn slim, ambitieus en zien precies hoe het beter kan.
+                    </p>
+                    <p>
+                        U investeert in hun ontwikkeling. Maar zodra ze terugkomen op de werkvloer met nieuwe ideeën, botsen ze op de muur van de operatie. <em>"Geen tijd." "Geen budget."</em>
+                    </p>
+                    <div class="bg-slate-100 p-6 rounded-lg border-l-4 border-red-500">
+                        <p class="font-bold text-eur-dark italic">
+                            "Gefrustreerd talent doet twee dingen: ze stompen af (quiet quitting) of ze vertrekken naar de concurrent."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-4 bg-eur-accent/20 rounded-2xl transform rotate-3"></div>
+                <img src=assets\images\head-shot-home-portrait-young-600nw-2695287745.webp alt="Medewerker die vastloopt" class="relative rounded-2xl shadow-xl w-full object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- The Solution (Value Props) -->
+    <section id="business-case" class="py-20 px-6 bg-slate-100">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="font-display text-4xl font-bold text-eur-dark mb-4">DE ROI VAN ANCHORED</h2>
+                <p class="text-slate-600 text-lg">Waarom investeren toonaangevende havenbedrijven in dit programma?</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-eur-accent">
+                    <div class="w-14 h-14 bg-sky-100 rounded-full flex items-center justify-center text-eur-accent text-2xl mb-6">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <h3 class="font-display text-xl font-bold mb-3">1. Retentie & Motivatie</h3>
+                    <p class="text-slate-600">
+                        Bied uw beste mensen een uitdaging 'in de luwte'. De ruimte om écht te innoveren is de ultieme arbeidsvoorwaarde voor toptalent.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-eur-primary">
+                    <div class="w-14 h-14 bg-slate-100 rounded-full flex items-center justify-center text-eur-primary text-2xl mb-6">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <h3 class="font-display text-xl font-bold mb-3">2. Strategische Executie</h3>
+                    <p class="text-slate-600">
+                        Geen theoretische rapporten. Deelnemers bouwen werkende prototypes en nieuwe standaarden die direct toepasbaar zijn in uw bedrijf.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-eur-gold">
+                    <div class="w-14 h-14 bg-amber-50 rounded-full flex items-center justify-center text-eur-gold text-2xl mb-6">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <h3 class="font-display text-xl font-bold mb-3">3. Kennisinjectie</h3>
+                    <p class="text-slate-600">
+                        Via uw deelnemer krijgt uw organisatie direct toegang tot de nieuwste data en wetenschappelijke inzichten van de Erasmus Universiteit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology / Social Proof -->
+    <section class="py-20 px-6 bg-eur-dark text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="font-display text-3xl md:text-4xl font-bold mb-8">GEBASEERD OP BEWEZEN METHODIEK</h2>
+            <p class="text-xl text-slate-300 font-light mb-12">
+                Wij gebruiken o.a. de <strong>Transition Arena</strong> methode van Erasmus DRIFT. Dit is geen experiment, maar een wetenschappelijk onderbouwd raamwerk dat al 20 jaar succesvol wordt ingezet voor complexe veranderopgaven.
+            </p>
+            
+            <div class="flex flex-wrap justify-center gap-6 md:gap-12 opacity-70 grayscale">
+                <!-- Logos placeholders -->
+                <div class="flex items-center gap-2"><i class="fa-solid fa-university text-2xl"></i> <span class="font-bold text-xl">Erasmus Universiteit</span></div>
+                <div class="flex items-center gap-2"><i class="fa-solid fa-flask text-2xl"></i> <span class="font-bold text-xl">DRIFT</span></div>
+                <div class="flex items-center gap-2"><i class="fa-solid fa-ship text-2xl"></i> <span class="font-bold text-xl">Havenbedrijf</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / CTA -->
+    <footer id="contact" class="bg-slate-900 text-white py-16 px-6 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="font-display text-4xl font-bold mb-6">INVESTEER IN UW TOEKOMST</h2>
+            <p class="text-slate-400 text-lg mb-10">
+                De energietransitie wacht niet. Uw concurrentie ook niet.<br>
+                Zorg dat uw organisatie voorop loopt.
+            </p>
+            
+            <div class="bg-slate-800 p-8 rounded-2xl inline-block w-full max-w-md border border-slate-700">
+                <div class="text-left mb-6">
+                    <p class="text-sm text-eur-accent uppercase font-bold tracking-wider mb-1">Contactpersoon</p>
+                    <p class="text-2xl font-bold text-white">Maurits Oldenburg</p>
+                    <p class="text-slate-400">Lead Facilitator AnchorED</p>
+                </div>
+                
+                <a href="mailto:maurits.oldenburg@eur.nl?subject=Interesse%20AnchorED%20Partner" class="block w-full bg-eur-accent hover:bg-sky-400 text-white font-bold py-4 rounded-lg transition-colors text-center mb-4">
+                    <i class="fa-solid fa-envelope mr-2"></i> Stuur een e-mail
+                </a>
+                
+                <p class="text-xs text-slate-500 mt-4">
+                    Wij reageren doorgaans binnen 24 uur.
+                </p>
+            </div>
+            
+            <div class="mt-12 text-slate-600 text-sm">
+                &copy; 2026 AnchorED - Een initiatief van Erasmus Universiteit Rotterdam
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
