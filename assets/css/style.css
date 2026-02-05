@@ -1538,6 +1538,57 @@ header.sidebar_menu .bottom_content {
 .header_wrap.light_skin .mCS-dark.mCSB_scrollTools .mCSB_draggerRail {
     background-color: rgba(255,255,255,.15);
 }
+
+/* GEMINI CODE BELOW FOR LANGUAGE SWITCH BUTTON */
+    /* Zorgt voor verticale centrering in de navbar */
+    .nav-item-lang {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .language-switcher {
+        display: inline-flex;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 2px;
+        border-radius: 50px;
+        height: 32px; /* Vaste hoogte voor strakke uitlijning */
+    }
+
+    /* Kleuren aanpassen als de header wit wordt (na scroll) */
+    .header_wrap.fixed-top.light_skin.sticky .language-switcher {
+        background: rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .lang-btn {
+        padding: 0 12px;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+        line-height: 28px; /* Zorgt voor centrering binnen de pill */
+        color: #fff !important;
+        display: block;
+        text-decoration: none !important;
+    }
+
+    .header_wrap.fixed-top.light_skin.sticky .lang-btn {
+        color: #333 !important;
+    }
+
+    .lang-btn.active {
+        background: #007bff; /* Jouw blauwe themakleur */
+        color: #fff !important;
+    }
+
+    .lang-btn:hover:not(.active) {
+        opacity: 0.8;
+        background: rgba(255, 255, 255, 0.1);
+    }
 /*===================================*
   02. END HEADER DESIGN
 *===================================*/
